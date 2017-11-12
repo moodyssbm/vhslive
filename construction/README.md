@@ -1,3 +1,3 @@
-# VHSLive
+# Construction
 
-Hosting the code for http://videohomesystem.live so I can work on it from multiple computers.
+This is a tiny webpage for when we need to make changes with the code and don't necessarily want them to go live immediately.
