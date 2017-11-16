@@ -4,10 +4,34 @@ body {
   color: white;
   margin: 0; }
 
+h3 {
+  text-align: center;
+  color: white; }
+
+hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(255, 0, 193, 0), rgba(255, 0, 193, 0.75), rgba(255, 0, 193, 0)); }
+
+a {
+  color: #ff00c1;
+  text-decoration: none; }
+
+a:hover {
+  color: #ff96dc; }
+
 #logo {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 500px; }
+
+#bottom {
+  display: block;
+  width: 100%;
+  height: auto; }
+
+#nav {
+  text-align: center; }
 
 /*# sourceMappingURL=main.css.map */
