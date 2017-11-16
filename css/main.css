@@ -1,6 +1,13 @@
 body {
   font-family: Helvetica, sans-serif;
   background: black;
-  color: white; }
+  color: white;
+  margin: 0; }
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px; }
 
 /*# sourceMappingURL=main.css.map */
