@@ -6,5 +6,7 @@ styles:
 .PHONY: install
 
 install:
-	sudo rm -r /var/www/html/*
-	sudo cp -a ./* /var/www/html
+	rm -r /var/www/html/*
+	cp -a ./* /var/www/html
+	chown www-data:www-data /var/www/html/poll_result.txt
+	service apache2 restart
