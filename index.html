@@ -4,6 +4,7 @@
 		<meta charset="utf-8">
 		<title>VHSLive</title>
 		<link rel="stylesheet" type="text/css" href="./css/main.css"/>
+		<script src="./js/getVote.js"></script>
 	</head>
 	<body>
 		<img id="logo" src="./img/vhslive-logo.png"/>
@@ -15,6 +16,16 @@
 			</h4>
 		<hr/>
 		<iframe src="https://player.twitch.tv/?channel=vhslive" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+		<div id="poll">
+			<h4>Pick our next movie.</h4>
+			<form>
+				<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
+				Pokemon the First Movie
+				<br/>
+				<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
+				Back to the Future				
+			</form>
+		</div>
 		<img src="./img/bg.png" id="bottom"/>
 	</body>
 </html>

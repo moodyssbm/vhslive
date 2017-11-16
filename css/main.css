@@ -46,4 +46,10 @@ iframe {
 #nav {
   text-align: center; }
 
+#poll {
+  width: 620px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
 /*# sourceMappingURL=main.css.map */
