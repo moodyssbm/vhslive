@@ -4,6 +4,13 @@ body {
   color: white;
   margin: 0; }
 
+p {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  text-align: center; }
+
 h3 {
   text-align: center;
   color: white; }
@@ -11,7 +18,7 @@ h3 {
 hr {
   border: 0;
   height: 1px;
-  background-image: linear-gradient(to right, rgba(255, 0, 193, 0), rgba(255, 0, 193, 0.75), rgba(255, 0, 193, 0)); }
+  background-image: linear-gradient(to right, rgba(255, 0, 193, 0), #ff00c1, rgba(255, 0, 193, 0)); }
 
 a {
   color: #ff00c1;
