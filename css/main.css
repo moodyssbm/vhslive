@@ -6,10 +6,10 @@ body {
 
 p {
   display: block;
+  width: 625px;
   margin-left: auto;
   margin-right: auto;
-  color: white;
-  text-align: center; }
+  color: white; }
 
 h3 {
   text-align: center;

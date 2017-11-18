@@ -27,7 +27,7 @@
 <h2>Result:</h2>
     <table>
         <tr>
-            <td>Pokemon the First Movie:</td>
+            <td>Pulp Fiction:</td>
             <td>
                 <img src="./img/poll.gif"
                 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
@@ -36,7 +36,7 @@
             </td>
         </tr>
         <tr>
-            <td>Back to the Future:</td>
+            <td>Point Blank:</td>
             <td>
                 <img src="./img/poll.gif"
                 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
