@@ -7,7 +7,7 @@
 		<link rel="shortcut icon" href="./favicon.ico"/>
 		<script src="./js/getVote.js"></script>
 		<?php
-			$filename = "/home/pi/Documents/Code/Electron/media-entry/js/pi-app.js";
+			$filename = "/home/pi/Documents/Code/Electron/media-entry/data/selected.csv";
 			$content = file($filename);
 			$array = explode("|", $content[0]);
 		?>

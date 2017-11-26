@@ -3,7 +3,7 @@
 
     //get content of textfile
     $filename = "poll_result.txt";
-    $filename2 = "/home/pi/Documents/Code/Electron/media-entry/js/pi-app.js";
+    $filename2 = "/home/pi/Documents/Code/Electron/media-entry/data/selected.csv";
     $content = file($filename);
     $content2 = file($filename2);
 
