@@ -30,7 +30,7 @@
 				<?php echo($array[0])?>
 				<br/>
 				<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
-				Point Blank				
+				<?php echo($array[1])?>				
 			</form>
 		</div>
 		<img src="./img/bg.png" id="bottom"/>

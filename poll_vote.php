@@ -3,10 +3,13 @@
 
     //get content of textfile
     $filename = "poll_result.txt";
+    $filename2 = "/home/pi/Documents/Code/Electron/media-entry/js/pi-app.js";
     $content = file($filename);
+    $content2 = file($filename2);
 
     //put content in array
     $array = explode("||", $content[0]);
+    $array2 = explode("|", $content2[0]);
     $yes = $array[0];
     $no = $array[1];
 
@@ -27,7 +30,7 @@
 <h2>Result:</h2>
     <table>
         <tr>
-            <td>Pulp Fiction:</td>
+            <td><?php echo($array2[0]);?></td>
             <td>
                 <img src="./img/poll.gif"
                 width='<?php echo(100*round($yes/($no+$yes),2)); ?>'
@@ -36,7 +39,7 @@
             </td>
         </tr>
         <tr>
-            <td>Point Blank:</td>
+            <td><?php echo($array2[1]);?></td>
             <td>
                 <img src="./img/poll.gif"
                 width='<?php echo(100*round($no/($no+$yes),2)); ?>'
