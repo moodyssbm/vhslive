@@ -6,6 +6,11 @@
 		<link rel="stylesheet" type="text/css" href="./css/main.css"/>
 		<link rel="shortcut icon" href="./favicon.ico"/>
 		<script src="./js/getVote.js"></script>
+		<?php
+			$filename = "/home/pi/Documents/Code/Electron/media-entry/js/pi-app.js";
+			$content = file($filename);
+			$array = explode("|", $content[0]);
+		?>
 	</head>
 	<body>
 		<img id="logo" src="./img/vhslive-logo.png"/>
@@ -22,7 +27,7 @@
 			<h4>Pick our next movie.</h4>
 			<form>
 				<input type="radio" name="vote" value="0" onclick="getVote(this.value)">
-				Pulp Fiction
+				<?php echo($array[0])?>
 				<br/>
 				<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
 				Point Blank				
