@@ -2,7 +2,7 @@
     $vote = $_REQUEST['vote'];
 
     //get content of textfile
-    $filename = "poll_result.txt";
+    $filename = "/var/www/poll/poll_result.txt";
     $filename2 = "/home/pi/Documents/Code/Electron/media-entry/data/selected.csv";
     $content = file($filename);
     $content2 = file($filename2);
