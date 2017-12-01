@@ -7,7 +7,7 @@
 		<link rel="shortcut icon" href="./favicon.ico"/>
 		<script src="./js/getVote.js"></script>
 		<?php
-			$filename = "/home/pi/Documents/Code/Electron/media-entry/data/selected.csv";
+			$filename = "./poll/selected.txt"; // temp
 			$content = file($filename);
 			$array = explode("|", $content[0]);
 		?>
@@ -30,7 +30,10 @@
 				<?php echo($array[0])?>
 				<br/>
 				<input type="radio" name="vote" value="1" onclick="getVote(this.value)">
-				<?php echo($array[1])?>				
+				<?php echo($array[1])?>	
+				<br/>	
+				<input type="radio" name="vote" value="2" onclick="getVote(this.value)">
+				<?php echo($array[2])?>		
 			</form>
 		</div>
 		<img src="./img/bg.png" id="bottom"/>

@@ -6,6 +6,7 @@ styles:
 .PHONY: install
 
 install:
+	cp /var/www/html/poll/* ./poll/
 	rm -r /var/www/html/*
 	cp -a ./* /var/www/html
 	chown www-data:www-data /var/www/html/poll_result.txt
