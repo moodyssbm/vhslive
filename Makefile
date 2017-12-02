@@ -8,7 +8,7 @@ styles:
 install:
 	cat /var/www/html/poll/selected.txt > ./poll/last.txt
 	cat /var/www/html/poll/poll_result.txt >> ./poll/last.txt
-	cp /var/www/html/poll/* ./poll/
+	cp /var/www/html/poll/last.txt ./poll/
 	rm -r /var/www/html/*
 	cp -a ./* /var/www/html
 	chown www-data:www-data /var/www/html/*
